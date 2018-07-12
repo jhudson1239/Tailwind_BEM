@@ -11,6 +11,9 @@
     <!--Styles-->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
+    <!--JS-->
+    <script src="JS/script.js" defer></script>
+
 </head>
 <body class="bg-grey-lightest">
 
@@ -18,7 +21,7 @@
         <h1 class="font-mono">hey yeall</h1>
         <p class="font-mono text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi quidem repellendus eos molestias esse omnis est? Ut eius explicabo, eaque debitis voluptates ratione sapiente? Et esse quos nisi ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laborum error, reiciendis eaque fuga earum culpa cupiditate magnam at quia vitae similique velit. Magni esse quaerat, in architecto est sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolore, dicta magni quis mollitia esse delectus ex dolorem maiores dignissimos inventore iure eum amet rem libero. Dolor eius dolore iste!</p>
 
-        <button class="px-4 py-2 border-2 border-blue text-blue rounded hover:text-red hover:border-red"><strong>Button</strong></button>
+        <button id="button" class="px-4 py-2 border-2 border-blue text-blue rounded hover:text-red hover:border-red"><strong>Button</strong></button>
 
         <div class="w-1/2 h-64 bg-green-light flex">
             <ul class="align-bottom">
@@ -33,6 +36,21 @@
             <div class="flex-1 text-center text-grey-darker bg-grey-lighter px-1 py-2 m-2">Box 1</div>
             <div class="flex-1 text-center text-grey-darker bg-grey-lighter px-1 py-2 m-2">Box 1</div>
         </div>
+
+        <div class="w-1/2 h-64 bg-purple-light border rounded-lg p-8 group hover:bg-blue-light">
+            <h3 class="group-hover:text-white">Playing around</h3>
+            <p class="group-hover:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius a laborum magnam quo debitis saepe nobis asperiores dolores quis id distinctio iure modi culpa recusandae, adipisci aliquid temporibus? Recusandae, molestias.</p>
+        </div>
+        <br>
+
+            <div class="z-40 ml-0 mt-0 bg-orange-lightest w-32 h-32 absolute pin-auto  text-center">z-40</div>
+            <div class="z-30 ml-2 mt-2 bg-orange-lighter w-32 h-32 absolute pin-auto text-center">z-30</div>
+            <div class="z-20 ml-4 mt-4 bg-orange-light w-32 h-32 absolute pin-auto text-center">z-20</div>
+            <div class="z-10 ml-6 mt-6 bg-orange w-32 h-32 absolute pin- text-center">z-10</div>
+            <div class="z-0 ml-8 mt-8 bg-orange-dark w-32 h-32 absolute pin-auto text-center">z-0</div>
+        </div>
+
+        
         
     </div>
 
